@@ -1,0 +1,372 @@
+@charset "utf-8";
+body {
+  background: #f6f6f6;
+}
+header {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+header .swipe {
+  position: relative;
+  overflow: hidden;
+  visibility: visible;
+}
+header .swipe .swipe-wrap {
+  width: 400%;
+  overflow: hidden;
+  position: relative;
+}
+header .swipe .swipe-wrap > div {
+  float: left;
+  width: 25%;
+  height: 4.8rem;
+  position: relative;
+}
+header .swipe .swipe-wrap > div img {
+  width: 100%;
+  height: 4.8rem;
+}
+header .head-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.13333333rem 0;
+  height: 0.8rem;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1));
+  /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1));
+  /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1));
+  /* Firefox 3.6 - 15 */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.1));
+  /* 标准的语法 */
+}
+header .head-box .i1 {
+  display: block;
+  margin: 0 auto;
+  width: 15%;
+  height: 0.66666667rem;
+  margin-top: 0.06666667rem;
+  background: url(../images/scan-2.png) no-repeat center;
+  background-size: 38%;
+}
+header .head-box p {
+  width: 60%;
+  height: 0.8rem;
+  border-radius: 0.66666667rem;
+  background: rgba(255, 255, 255, 0.3);
+}
+header .head-box p i {
+  display: block;
+  width: 20%;
+  height: 0.53333333rem;
+  margin-top: 0.13333333rem;
+  background: url(../images/sea.png) no-repeat center;
+  background-size: 40%;
+}
+header .head-box .drt {
+  width: 25%;
+  height: 0.8rem;
+}
+header .head-box .drt span {
+  display: block;
+  width: 45%;
+  height: 0.8rem;
+  background: url(../images/rt2.png) no-repeat center;
+  background-size: 60%;
+}
+header .head-box .drt .s1 {
+  background-image: url(../images/rt2-1.png);
+}
+header .dian {
+  position: absolute;
+  bottom: 0.50666667rem;
+  left: 0;
+  width: 100%;
+  height: 0.21333333rem;
+  overflow: hidden;
+}
+header .dian ul {
+  width: 16%;
+  height: 0.21333333rem;
+  margin: 0 auto;
+}
+header .dian ul li {
+  float: left;
+  width: 15%;
+  height: 0.21333333rem;
+  margin: 0 4%;
+  border-radius: 50%;
+  background: #aaa;
+}
+header .dian ul .on {
+  background: #92d6ff;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  padding: 0.26666667rem;
+  border-top: 0.01333333rem solid #aaaaaa;
+  background: #fff;
+}
+footer ul {
+  width: 100%;
+}
+footer ul li {
+  float: left;
+  width: 20%;
+}
+footer ul li img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: 0.58666667rem;
+}
+footer ul li span {
+  display: block;
+  width: 100%;
+  margin: 0.13333333rem 0;
+  text-align: center;
+}
+.main-box {
+  width: 100%;
+  background: #f6f6f6;
+  overflow: hidden;
+  margin-bottom: 2.66666667rem;
+}
+.main-box .cd {
+  width: 100%;
+  overflow: hidden;
+  padding: 0.26666667rem 0 0.53333333rem 0;
+  border-bottom: 0.01333333rem solid #cccccc;
+}
+.main-box .cd li {
+  float: left;
+  width: 25%;
+  padding: 0.13333333rem 0;
+  margin-top: 0.26666667rem;
+  text-align: center;
+}
+.main-box .cd li img {
+  display: block;
+  margin: 0 auto;
+  width: 55%;
+  height: 1.30666667rem;
+}
+.main-box .cd li span {
+  display: block;
+  margin-top: 0.26666667rem;
+  width: 100%;
+  height: 0.42666667rem;
+}
+.main-box .hong {
+  width: 100%;
+  overflow: hidden;
+  padding: 0.26666667rem 0;
+}
+.main-box .hong dl {
+  width: 100%;
+}
+.main-box .hong dl dt {
+  width: 32%;
+}
+.main-box .hong dl dt img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: 2.13333333rem;
+}
+.main-box .hong dl dd {
+  width: 63%;
+  height: 1.54666667rem;
+  margin-top: 0.46666667rem;
+  padding-left: 3%;
+  border-left: 0.01333333rem solid #aaaaaa;
+  overflow: hidden;
+}
+.main-box .hong dl dd p {
+  width: 100%;
+  font-size: 0.34666667rem;
+  height: 0.42666667rem;
+}
+.main-box .hong dl dd p i {
+  color: #1365ee;
+}
+.main-box .hong dl dd p em {
+  color: #fc5703;
+}
+.main-box .tu {
+  width: 100%;
+}
+.main-box .tu img {
+  width: 100%;
+  height: 3.68rem;
+  margin-top: 0.10666667rem;
+}
+.main-box .tit {
+  width: 100%;
+  overflow: hidden;
+  padding: 0.4rem 0;
+}
+.main-box .tit .cen-t {
+  margin-left: 19%;
+  width: 60%;
+}
+.main-box .tit .cen-t i {
+  display: block;
+  margin-top: 0.13333333rem;
+  width: 15%;
+  height: 0.29333333rem;
+  background: url(../images/zuo.png) no-repeat center;
+  background-size: 100%;
+}
+.main-box .tit span {
+  display: block;
+  width: 10%;
+  font-size: 0.34666667rem;
+  height: 0.4rem;
+  color: #e85158;
+  padding-right: 2%;
+  margin-top: 0.06666667rem;
+  background: url(../images/jian-r.png) no-repeat right;
+  background-size: 28%;
+}
+.main-box .san {
+  width: 150%;
+  height: 4.66666667rem;
+  overflow: hidden;
+  background: #f6f6f6;
+}
+.main-box .san dl {
+  float: left;
+  width: 20%;
+  margin-right: 0.13333333rem;
+  background: #f6f6f6;
+}
+.main-box .san dl dt {
+  width: 100%;
+}
+.main-box .san dl dt img {
+  width: 99%;
+  height: 2.93333333rem;
+}
+.main-box .san dl dd {
+  font-size: 0.34666667rem;
+  width: 100%;
+  height: 1.73333333rem;
+}
+.main-box .san dl dd p {
+  font-size: 0.34666667rem;
+  margin: 0.06666667rem 0 0.32rem 0;
+}
+.main-box .san dl dd span {
+  font-size: 0.29333333rem;
+}
+.main-box .san dl dd span em {
+  color: #999;
+}
+.main-box .san dl dd span i {
+  color: #e75058;
+}
+.main-box .san .d1 {
+  margin-left: 0.26666667rem;
+}
+.main-box .hua {
+  width: 100%;
+  padding: 0 3%;
+  overflow: hidden;
+}
+.main-box .hua dl {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+}
+.main-box .hua dl h2 {
+  font-size: 0.37333333rem;
+  width: 100%;
+  margin: 0.26666667rem 0;
+}
+.main-box .hua dl dt {
+  width: 100%;
+}
+.main-box .hua dl dt img {
+  width: 60%;
+}
+.main-box .hua dl dt .rt-r {
+  width: 39%;
+  margin-left: 1%;
+}
+.main-box .hua dl dt .rt-r img {
+  width: 76%;
+}
+.main-box .hua dl dt .rt-r .lf-1 {
+  margin-bottom: 0.05333333rem;
+}
+.main-box .hua dl dd {
+  width: 100%;
+}
+.main-box .hua dl dd img {
+  width: 25%;
+  height: 1.05333333rem;
+  margin-top: 0.26666667rem;
+}
+.main-box .hua dl dd div {
+  width: 73%;
+  padding: 0.26666667rem 0;
+  padding-left: 2%;
+  font-size: 0.32rem;
+}
+.main-box .hua dl dd div .p1 {
+  margin-bottom: 0.16rem;
+}
+.main-box .si {
+  width: 100%;
+  overflow: hidden;
+  background: #f6f6f6;
+}
+.main-box .si dl {
+  float: left;
+  width: 48%;
+  margin-left: 2%;
+  overflow: hidden;
+  background: #f6f6f6;
+}
+.main-box .si dl dt {
+  width: 100%;
+}
+.main-box .si dl dt img {
+  width: 99%;
+  height: 4.58666667rem;
+}
+.main-box .si dl dd {
+  font-size: 0.34666667rem;
+  width: 100%;
+  height: 1.73333333rem;
+  padding-bottom: 0.26666667rem;
+}
+.main-box .si dl dd p {
+  font-size: 0.34666667rem;
+  margin: 0.06666667rem 0 0.32rem 0;
+}
+.main-box .si dl dd span {
+  font-size: 0.34666667rem;
+}
+.main-box .si dl dd span i {
+  color: #e75058;
+}
+.main-box .si dl dd span em {
+  margin-left: 5%;
+  color: #999;
+}
+.main-box .si dl dd span b {
+  display: block;
+  width: 20%;
+  height: 0.4rem;
+  background: url(../images/shopcat.png) no-repeat center;
+  background-size: 50%;
+}
